@@ -14,4 +14,4 @@ boustrophedon('map1.jpg')
 
 ### Who do I talk to? ###
 
-* Srikanth Malla
+* Srikanth Malla (smalla@andrew.cmu.edu)
