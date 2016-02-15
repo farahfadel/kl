@@ -6,7 +6,7 @@ Boustrophedon_decompostion is cell decomposition of known map and create right t
 
 Clone it to your workspace and run the function boustrophedon as
 
-boustrophedon('map1.jpg')
+boustrophedon('map2.jpg')
 
 ### Who do I talk to? ###
 
