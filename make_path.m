@@ -45,26 +45,35 @@ m= no_of_lines(A(i,:));
                     j=j+1;
                     continue
                 end
-                
-%                 if (m>1) &&(A(i,j-1)==0)&&(A(i,j)==1)
-%                     k=k+1
-%                 end
                 path{k}=[path{k};j,i];
                 j=j+1;
+                if (A(i,j-1)==1)&&(A(i,j)==0)
+                    k
+                    i
+                    j
+                    
+                    k=k+1
+                end
             end
             flag=1;
-        else 
+        else
             j=size(A,2)-1;
             while (j>1)
                 if (A(i,j)==0)
                     j=j-1;
                     continue
                 end
-%                 if (A(i,j+1)==1)&(A(i,j)==0)
-%                     k=k-1;
-%                 end
+                
                 path{k}=[path{k};j,i];
                 j=j-1;
+                if (A(i,j+1)==1)&(A(i,j)==0)
+%                     [output, idy]=no_of_lines(A(i,:))
+%                     k=k+sum(find(idy<j))
+%                     k
+%                     i
+%                     j
+                    k=k-1
+                end
             end
             flag=0;
         end

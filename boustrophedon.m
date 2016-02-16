@@ -21,7 +21,7 @@ end
 for i=1:size(idx,1)
     critical_points=[critical_points;obstacle_points(find(idx(i)==(obstacle_points(:,1))),:)];
 end
-dist=8;
+dist=9;
 path=make_path(A,x,dist,no_of_cells,idx);
 A(idx,:)=0;
 % A=create_boundaries(A,critical_points);
@@ -29,7 +29,7 @@ imshow(A);
 hold on;
 plot(critical_points(:,2),critical_points(:,1),'r*');
 
-% for i=1:2
-    plot(path{2}(:,1),path{2}(:,2),'b-');
-% end
+for i=1:no_of_cells
+    plot(path{i}(:,1),path{i}(:,2),'b--');
+end
 end
