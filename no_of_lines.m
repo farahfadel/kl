@@ -2,9 +2,9 @@ function [output, idy]=no_of_lines(x)
 %% intro
 % to find no of lines by horizontal intersections on the map
 % check the continuity of the free space in the row matrix
-% input- row matrix
-% output- no of intersections+1 which is no_ of lines
-%       - ids of critical points
+% input- x:row matrix
+% output- ouput:no of intersections+1 which is no_ of lines
+%       - idy:ids of critical points
 %% code
 if x(1)==1
     output=1;
