@@ -4,9 +4,10 @@ Boustrophedon_decompostion is cell decomposition of known map and create right t
 
 ### How do I get set up? ###
 
-Clone it to your workspace and run the function boustrophedon as
-
+Clone it to your workspace and run the function boustrophedon in matlab as
+```
 boustrophedon('map2.jpg')
+```
 
 ### Who should I talk to? ###
 
