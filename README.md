@@ -8,6 +8,9 @@ Clone it to your workspace and run the function boustrophedon as
 
 boustrophedon('map2.jpg')
 
-### Who do I talk to? ###
+### Who should I talk to? ###
 
 * Srikanth Malla (smalla@andrew.cmu.edu)
+
+### What project generated the code? ###
+Boiler Inspection
