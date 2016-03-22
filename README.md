@@ -12,6 +12,3 @@ boustrophedon('map2.jpg')
 ### Who should I talk to? ###
 
 * Srikanth Malla (smalla@andrew.cmu.edu)
-
-### What project generated the code? ###
-Boiler Inspection
